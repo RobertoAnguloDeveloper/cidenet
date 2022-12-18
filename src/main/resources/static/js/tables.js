@@ -20,7 +20,7 @@ function cleanFields(){
 }
 
 var app = {
-    backend: 'http://localhost:8080/api/Empleado',
+    backend: 'http://144.22.204.157:8080/api/Empleado',
     table : null,
 
     init: function() {
@@ -39,7 +39,7 @@ var app = {
 
         function getAutoIncrementValue(){
             $.ajax({
-                url: app.backend + '/auto_increment_value',
+                url: 'http://144.22.204.157:8080/api/Empleado/auto_increment_value',
                 type: 'GET',
                 dataType: 'json',
                 
@@ -51,7 +51,7 @@ var app = {
 
         function getList(){
             $.ajax({
-                url: app.backend + '/all',
+                url: 'http://144.22.204.157:8080/api/Empleado/all',
                 type: 'GET',
                 dataType: 'json',
                 
