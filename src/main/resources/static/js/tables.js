@@ -147,8 +147,8 @@ var app = {
                             fecha_hora_registro: fecha_hora_registro
                         });
                     }
-                },500);
-            }, 500);            
+                },1000);
+            }, 1000);            
         });
 
         $("#update").click(function(){
@@ -237,8 +237,8 @@ var app = {
                             fecha_hora_registro: fecha_hora_registro
                         });
                     }
-                },500);
-            }, 500);
+                },1000);
+            }, 1000);
         });
     },
 
