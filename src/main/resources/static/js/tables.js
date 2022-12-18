@@ -51,7 +51,7 @@ var app = {
 
         function getList(){
             $.ajax({
-                url: app.backend + 'all',
+                url: app.backend + '/all',
                 type: 'GET',
                 dataType: 'json',
                 
