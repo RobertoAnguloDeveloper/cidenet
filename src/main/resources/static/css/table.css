@@ -1,0 +1,62 @@
+label, #empleados_table_info, #empleados_table_paginate{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#empleados_table_filter, label{
+  float: right;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  background-color: white;
+}
+
+select[name="empleados_table_length"]{
+  background-color: white !important; 
+}
+
+input[placeholder="Email"]{
+  width: 160% !important;
+  max-width: 250px !important;
+  margin: 0 !important;
+}
+
+th[aria-label="EstadoActivar para ordenar la columna de manera ascendente"]{
+  width: 100% !important;
+  max-width: 250px !important;
+}
+
+th[aria-label="Fecha y hora de registroActivar para ordenar la columna de manera ascendente"]{
+  width: 150px !important;
+}
+
+th[aria-label="Fecha de ingresoActivar para ordenar la columna de manera ascendente"]{
+  width: 100% !important;
+  max-width: 250px !important;
+}
+
+.dt-button{
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 10% !important;
+}
+
+.dt-button:hover{
+  background-color: #0d6efd !important;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 40% !important;
+}
+
+div.dt-buttons {
+  float: unset !important;
+  margin-bottom: -60px;
+}
+
+#titulo{
+  text-shadow: 2px 1px 5px rgb(0, 0, 0);
+}
+
