@@ -20,7 +20,7 @@ function cleanFields(){
 }
 
 var app = {
-    backend: 'http://localhost:8080/api/Empleado',
+    backend: 'http://144.22.204.157:8080/api/Empleado',
     table : null,
 
     init: function() {
