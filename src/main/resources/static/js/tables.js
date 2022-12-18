@@ -20,7 +20,7 @@ function cleanFields(){
 }
 
 var app = {
-    backend: 'http://144.22.204.157:8080/api/Empleado',
+    backend: 'http://localhost:8080/api/Empleado',
     table : null,
 
     init: function() {
@@ -147,8 +147,8 @@ var app = {
                             fecha_hora_registro: fecha_hora_registro
                         });
                     }
-                },1000);
-            }, 1000);            
+                },500);
+            }, 500);            
         });
 
         $("#update").click(function(){
@@ -237,8 +237,8 @@ var app = {
                             fecha_hora_registro: fecha_hora_registro
                         });
                     }
-                },1000);
-            }, 1000);
+                },500);
+            }, 500);
         });
     },
 
