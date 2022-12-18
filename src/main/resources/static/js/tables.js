@@ -64,10 +64,9 @@ var app = {
         }
 
         $("#save").click(function(){
-            setTimeout(()=>{
-                getAutoIncrementValue();
-                getList();
-            },1000)
+            
+            getAutoIncrementValue();
+            getList();
 
             var date = new Date();
             var timestamp = date.getDate() + '/' 
